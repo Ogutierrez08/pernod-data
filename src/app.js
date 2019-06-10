@@ -30,7 +30,6 @@ generateParameter = (onSuccess) => {
     })
 }
 
-
 generateVentas = (onSuccess) => {
     console.log('Cargando info VENTAS...')
     sql.Go(`EXEC PERNOD_VENTAS`,(result) => {
@@ -118,5 +117,4 @@ generateVentas(() => {
         })
     })
 })
-
 
